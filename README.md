@@ -33,13 +33,9 @@ You need to install ...
 ## Getting Started
 
 Installing the libraries:
-- HTTPS
-- Plots
-- DataFrames
-- Statistics
-- HypothesisTests
+
 - CSV
-- PlotlyJS
+
 
 
 
