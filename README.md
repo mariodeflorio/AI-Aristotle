@@ -39,7 +39,7 @@ Installing the libraries:
 
 
 
-## Contributing
+## Contribution
 Nazanin :
 
 Mario:
