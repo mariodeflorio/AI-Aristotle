@@ -5,7 +5,7 @@
 | [2. General Installation](#General-Installation) |
 | [3. UML diagram](#The-workflow-of-each-file-(UML-diagrams)) |
 | [4. Getting Started](#Getting-Started) |
-| [5. Contributing](#contributing) |
+| [5. Contribution](#contributing) |
 | [6. To Do](#To-Do) |
 | [7. Contact](#Contact) |
 
