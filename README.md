@@ -3,11 +3,10 @@
 | ----------------- |
 | [1. Introduction(AI-Aristotle)](#Introduction) |
 | [2. General Installation](#General-Installation) |
-| [3. UML diagram](#The-workflow-of-each-file-(UML-diagrams)) |
-| [4. Getting Started](#Getting-Started) |
-| [5. Contribution](#contributing) |
-| [6. To Do](#To-Do) |
-| [7. Contact](#Contact) |
+| [3. Getting Started](#Getting-Started) |
+| [4. Contribution](#contributing) |
+| [5. To Do](#To-Do) |
+| [6. Contact](#Contact) |
 
 
 
