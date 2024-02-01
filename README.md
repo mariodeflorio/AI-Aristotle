@@ -26,9 +26,6 @@ You need to install ...
 
 
 
-## The workflow of each file (UML diagrams)
-
-
 ## Getting Started
 
 Installing the libraries:
