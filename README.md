@@ -4,7 +4,7 @@
 | [1. Introduction(AI-Aristotle)](#Introduction) |
 | [2. General Installation](#General-Installation) |
 | [3. Getting Started](#Getting-Started) |
-| [4. Contribution](#contributing) |
+| [4. Contribution](#contribution) |
 | [5. To Do](#To-Do) |
 | [6. Contact](#Contact) |
 
@@ -33,7 +33,7 @@ Installing the libraries:
 - CSV
 
 
-
+## Contribution
   
   
 ## To Do
