@@ -38,16 +38,6 @@ Installing the libraries:
 
 
 
-
-## Contribution
-Nazanin :
-
-Mario:
-
-Khemraj: 
-
-  
-
   
   
 ## To Do
