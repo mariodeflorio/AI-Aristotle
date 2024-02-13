@@ -24,13 +24,9 @@ Discovering mathematical equations that govern physical and biological systems f
 
 ## PINNs General Installation Instructions
 
-To set up your environment for this project, ensure you have Python installed on your system. If not, download it from [python.org](https://www.python.org/). This project is compatible with Python 3.x versions.
+To set up your environment for this project, ensure you have Python installed on your system. If not, download it from  [Python website](https://www.python.org/)(https://www.python.org/). This project is compatible with Python 3.x versions.
 
-### Step 1: Install Python
-
-Make sure Python 3.x is installed on your system. You can download Python from the official [Python website](https://www.python.org/).
-
-### Step 2: Install Required Libraries
+### Install Required Libraries
 
 Open your terminal or command prompt and execute the following commands to install the necessary libraries:
 
