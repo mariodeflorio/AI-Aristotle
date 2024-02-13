@@ -86,7 +86,6 @@ data = jnp.column_stack((data['Variable1'], data['Variable2'], data['Variable3']
 
 ## X-TFC
 
-## X-TFC
 
 ### X-TFC for parameter discovery
 
