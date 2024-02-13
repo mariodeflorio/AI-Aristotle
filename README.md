@@ -117,13 +117,10 @@ To perform missing term discovery with X-TFC for the drugs absorption compartmen
 - *IterTol*: tolerance of the least-squares algorithm
 - *type_act*: select the activation function to use.
 
-The script prints the computational time of the total execution, the values of the Mean Absolute Error, Mean Squared Error, and Relative Error of the discovered term compared to the exact term. Two figures will be produced, in which the solutions of the differential equations and the missing term are plotted vs. exact solutions, for both training and test points. The vectors of time domain, the three solutions of the differential equations and discovered term are saved in the file *t_B_G_U_f.csv*, which will be used in the Symbolic Regression algorithm for the mathematical distillation.
+The script prints the computational time of the total execution, the values of the Mean Absolute Error, Mean Squared Error, and Relative Error of the discovered term compared to the exact term. Two figures will be produced, in which the solutions of the differential equations and the missing term are plotted vs. exact solutions for both training and test points. The vectors of the time domain, the three solutions of the differential equations, and the discovered term are saved in the file *t_B_G_U_f.csv*, which will be used in the Symbolic Regression algorithm for the mathematical distillation.
 
 
 
-# Contribution
-  
-  
 
   
 # Contact
