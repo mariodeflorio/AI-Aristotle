@@ -126,7 +126,7 @@ This project encompasses various components, each spearheaded by different contr
 
 - **Physics-Informed Neural Networks (PINNs)**: For inquiries or issues related to the PINNs code, please contact Nazanin. She is responsible for this segment and can provide the necessary support.
 
-- **X-tfc**: If your questions or issues pertain to the X-TFC component, Mario is your point of contact. He has developed this part and will be able to assist you with any related queries.
+- **X-TFC**: If your questions or issues pertain to the X-TFC component, Mario is your point of contact. He has developed this part and will be able to assist you with any related queries.
 
 - **Symbolic Regression**: For matters concerning the Symbolic Regression part of the project, please get in touch with Khemraj. He is the main contributor for this section and will address any problems you might face.
 
