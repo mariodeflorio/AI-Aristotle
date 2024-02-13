@@ -7,7 +7,18 @@
 | [4. Contributions](#contributions) |
 | [5. Contact](#Contact) |
 
+
+
+# AI-Aristotle framework for gray-box identification
 ![AI Aristotle Diagram](https://github.com/mariodeflorio/AI-Aristotle/blob/main/AI_aristotle_diagram.jpg?raw=true)
+1. The observed data and the partial knowledge of physics are used to train the selected neural network-based module.
+2. The selection of the neural networks-based module needs to be done between (a) X-TFC, recommended for high-resolution
+data and missing terms discovery, and (b) PINN, recommended for sparse data and parameter estimation. The neural
+network outputs are the time-dependent representations of the missing terms of the dynamical systems, which are fed into the
+symbolic regression algorithm.
+3. The selected Symbolic Regression module identifies the mathematical expressions of the missing terms. It is recommended
+to use both symbolic regressors for cross-validation.
+4. The full knowledge of physics is now available, allowing forward modeling performance
 
 # Introduction
 
