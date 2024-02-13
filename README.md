@@ -91,6 +91,7 @@ data = jnp.column_stack((data['Variable1'], data['Variable2'], data['Variable3']
 ### X-TFC for parameter discovery
 
 To perform parameter discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_parameter_discovery.m*. The script loads the selected synthetic dataset. For example, if the user selectes *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
+
       * *N*, number of collocation points per each sub-domain
       * *m*, number of neurons
       * *t_step*, length of sub-domains
@@ -106,6 +107,7 @@ The script prints the computational time of the total execution, the values of t
 ### X-TFC for missing term discovery
 
 To perform missing term discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_missing_term.m*. The script loads the selected synthetic dataset. For example, if the user selectes *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
+
       * *N*, number of collocation points per each sub-domain
       * *m*, number of neurons
       * *t_step*, length of sub-domains
