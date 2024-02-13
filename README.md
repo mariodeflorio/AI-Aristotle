@@ -54,13 +54,38 @@ pip install scipy
 pip check
 ```
 
+## X-TFC
+Put it here!
 
 
 # Getting Started
 
-Installing the libraries:
+## PINNs
+After installing all the required libraries, you will be able to run the `.py` files included in this repository and obtain results. Ensure you follow the installation instructions carefully to set up your environment correctly.
 
-- CSV
+### How to Adapt the Code for Your Problem
+
+#### Modifying the ODE System and Initial Conditions
+
+If your problem involves a different number of ordinary differential equations (ODEs) or you need to change the initial conditions, you can adjust the loss function and initial conditions accordingly. Here's how you can do it:
+
+1. **Edit the Loss Function**: Depending on the number of ODEs your problem has, modify the loss function in the code to reflect this change.
+
+2. **Change Initial Conditions (IC)**: Update the initial conditions to match those of your specific problem. You can do this by altering the values where the initial conditions are defined in the code.
+
+#### Importing and Using Your Data
+
+To use your own data, either synthetic or real, replace the example file path with the path to your data file. Here is an example of how to read and prepare your data:
+
+```python
+file_path_1 = './your_data_file.csv'  # Replace with your actual file path
+data_noisy = pd.read_csv(file_path_1)
+t_data = data['t']
+t_data = t_data.to_numpy(dtype=np.float32).reshape(-1, 1)
+data = jnp.column_stack((data['Variable1'], data['Variable2'], data['Variable3']))
+```
+
+## X-TFC
 
 
 # Contribution
