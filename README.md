@@ -86,35 +86,37 @@ data = jnp.column_stack((data['Variable1'], data['Variable2'], data['Variable3']
 
 ## X-TFC
 
+## X-TFC
+
 ### X-TFC for parameter discovery
 
-To perform parameter discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_parameter_discovery.m*. The script loads the selected synthetic dataset. For example, if the user selectes *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
+To perform parameter discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_parameter_discovery.m*. The script loads the selected synthetic dataset. For example, if the user selects *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
 
-      * *N*, number of collocation points per each sub-domain
-      * *m*, number of neurons
-      * *t_step*, length of sub-domains
-      * *final_subdomain*, (n_t - 1) to consider all the time domain or 1 to consider only the first sub-domain.
-      * *LB*, Lower boundary for weight and bias samplings
-      * *UB*, Upper boundary for weight and bias samplings
-      * *IterMax*, maximum number of iterations of the least-squares algorithm 
-      * *IterTol*, tolerance of the least-squares algorithm
-      * *type_act*, select the activation function to use.
+- *N*: number of collocation points per each sub-domain
+- *m*: number of neurons
+- *t_step*: length of sub-domains
+- *final_subdomain*: (n_t - 1) to consider all the time domain or 1 to consider only the first sub-domain.
+- *LB*: Lower boundary for weight and bias samplings
+- *UB*: Upper boundary for weight and bias samplings
+- *IterMax*: maximum number of iterations of the least-squares algorithm 
+- *IterTol*: tolerance of the least-squares algorithm
+- *type_act*: select the activation function to use.
 
 The script prints the computational time of the total execution, the values of the discovered parameters, and their relative errors compared to the exact values.
 
 ### X-TFC for missing term discovery
 
-To perform missing term discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_missing_term.m*. The script loads the selected synthetic dataset. For example, if the user selectes *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
+To perform missing term discovery with X-TFC for the drugs absorption compartmental model, open and run the Matlab file *PK_missing_term.m*. The script loads the selected synthetic dataset. For example, if the user selects *drug_real_10.csv*, the dataset with 10 data points will be used in the simulation. The user can add a noise percentage to it by modifying the variable *noise_lev*. Follows the list of tunable parameters:
 
-      * *N*, number of collocation points per each sub-domain
-      * *m*, number of neurons
-      * *t_step*, length of sub-domains
-      * *N_test*, number of test points.
-      * *LB*, Lower boundary for weight and bias samplings
-      * *UB*, Upper boundary for weight and bias samplings
-      * *IterMax*, maximum number of iterations of the least-squares algorithm 
-      * *IterTol*, tolerance of the least-squares algorithm
-      * *type_act*, select the activation function to use.
+- *N*: number of collocation points per each sub-domain
+- *m*: number of neurons
+- *t_step*: length of sub-domains
+- *N_test*: number of test points.
+- *LB*: Lower boundary for weight and bias samplings
+- *UB*: Upper boundary for weight and bias samplings
+- *IterMax*: maximum number of iterations of the least-squares algorithm 
+- *IterTol*: tolerance of the least-squares algorithm
+- *type_act*: select the activation function to use.
 
 The script prints the computational time of the total execution, the values of the Mean Absolute Error, Mean Squared Error, and Relative Error of the discovered term compared to the exact term. Two figures will be produced, in which the solutions of the differential equations and the missing term are plotted vs. exact solutions, for both training and test points. The vectors of time domain, the three solutions of the differential equations and discovered term are saved in the file *t_B_G_U_f.csv*, which will be used in the Symbolic Regression algorithm for the mathematical distillation.
 
