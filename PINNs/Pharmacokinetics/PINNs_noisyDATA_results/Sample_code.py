@@ -245,7 +245,7 @@ opt_state_l3 = optimizer.init(lambda_3)
 
 start_time = time.time()
 epochs_phase1 = 5000
-epochs_phase2 = 30000
+epochs_phase2 = 25000
 
 loss_weight_phase1 = [1, 1, 0, 0, 0]
 loss_weight_phase2 = [1, 1, 1, 1, 1]
