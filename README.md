@@ -1,6 +1,6 @@
 
 
-# AI-Aristotle framework for gray-box identification
+# AI-Aristotle framework
 ![AI Aristotle Diagram](https://github.com/mariodeflorio/AI-Aristotle/blob/main/AI_aristotle_diagram.jpg?raw=true)
 1. The observed data and the partial knowledge of physics are used to train the selected neural network-based module.
 2. The selection of the neural networks-based module needs to be done between (a) X-TFC, recommended for high-resolution
