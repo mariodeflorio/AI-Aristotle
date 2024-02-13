@@ -124,7 +124,7 @@ The script prints the computational time of the total execution, the values of t
 
 This project encompasses various components, each spearheaded by different contributors. Should you encounter any issues or have questions about a specific part of the project, please reach out to the respective contributor for assistance:
 
-- **Physics-Informed Neural Networks (PINNs)**: For inquiries or issues related to the PINNs code, please contact Nazanin. She is the aithor and responsible for this segment and can provide the necessary support.
+- **Physics-Informed Neural Networks (PINNs)**: For inquiries or issues related to the PINNs code, please contact Nazanin. She is the author and responsible for this segment and can provide the necessary support.
 
 - **X-TFC**: If your questions or issues pertain to the X-TFC component, Mario is your point of contact. He has developed this part and will be able to assist you with any related queries.
 
