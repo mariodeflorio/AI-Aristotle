@@ -1,13 +1,4 @@
 
-| Table of Contents |
-| ----------------- |
-| [1. Introduction (AI-Aristotle)](#Introduction) |
-| [2. General Installation](#General-Installation) |
-| [3. Getting Started](#Getting-Started) |
-| [4. Contributions](#contributions) |
-| [5. Contact](#Contact) |
-
-
 
 # AI-Aristotle framework for gray-box identification
 ![AI Aristotle Diagram](https://github.com/mariodeflorio/AI-Aristotle/blob/main/AI_aristotle_diagram.jpg?raw=true)
@@ -19,6 +10,16 @@ symbolic regression algorithm.
 3. The selected Symbolic Regression module identifies the mathematical expressions of the missing terms. It is recommended
 to use both symbolic regressors for cross-validation.
 4. The full knowledge of physics is now available, allowing forward modeling performance
+
+
+| Table of Contents |
+| ----------------- |
+| [1. Introduction (AI-Aristotle)](#Introduction) |
+| [2. General Installation](#General-Installation) |
+| [3. Getting Started](#Getting-Started) |
+| [4. Contributions](#contributions) |
+| [5. Contact](#Contact) |
+
 
 # Introduction
 
