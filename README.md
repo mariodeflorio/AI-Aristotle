@@ -5,9 +5,7 @@
 | [2. General Installation](#General-Installation) |
 | [3. Getting Started](#Getting-Started) |
 | [4. Contribution](#contribution) |
-| [5. To Do](#To-Do) |
-| [6. Contact](#Contact) |
-
+| [5. Contact](#Contact) |
 
 
 # Introduction
@@ -125,7 +123,6 @@ The script prints the computational time of the total execution, the values of t
 # Contribution
   
   
-# To Do
 
   
 # Contact
