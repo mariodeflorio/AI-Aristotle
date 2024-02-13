@@ -176,8 +176,6 @@ sol2 = zeros(n_points,1);
 sol3 = zeros(n_points,1); 
 rhs_vec = zeros(n_points,1); 
 
-training_err_vec = zeros(n_t-1,1);
-
 xi_1_vec = [];
 xi_2_vec = [];
 xi_3_vec = [];
@@ -293,15 +291,14 @@ for i = 1:(n_t-1)
     
 %     disp(iter)
     
-    
-    training_err = sqrt(mean(abs(L_1.^2))) + sqrt(mean(abs(L_2.^2))) +  sqrt(mean(abs(L_3.^2)))   ;    
+     
     % Update of constraints
     
     y1_0 = y1(end);
     y2_0 = y2(end);
     y3_0 = y3(end);
        
-	sol1((N-1)*(i-1)+1:(N-1)*i+1) = y1;
+    sol1((N-1)*(i-1)+1:(N-1)*i+1) = y1;
     sol2((N-1)*(i-1)+1:(N-1)*i+1) = y2;
     sol3((N-1)*(i-1)+1:(N-1)*i+1) = y3;
 
@@ -311,8 +308,6 @@ for i = 1:(n_t-1)
     xi_2_vec  = [xi_2_vec ; xi_2];
     xi_3_vec  = [xi_3_vec ; xi_3];
     xi_rhs_vec  = [xi_rhs_vec ; xi_rhs];
-        
-    training_err_vec(i) = training_err;
                      
 end
 
@@ -320,7 +315,6 @@ xtfc_elapsedtime = toc(tStart) ;
 
 fprintf('The elapsed time for x-tfc is: %g \n', xtfc_elapsedtime );
 fprintf('\n')
-fprintf('The average training error for X-TFC is: %g \n', mean(training_err_vec) )
 
 xi_1_mat = reshape(xi_1_vec, m, (n_t-1) );
 xi_2_mat = reshape(xi_2_vec, m, (n_t-1) );
