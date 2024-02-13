@@ -7,7 +7,7 @@
 | [4. Contributions](#contributions) |
 | [5. Contact](#Contact) |
 
-![AI Aristotle Diagram](https://github.com/mariodeflorio/AI-Aristotle/blob/main/AI_aristotle_diagram.png?raw=true)
+![AI Aristotle Diagram](https://github.com/mariodeflorio/AI-Aristotle/blob/main/AI_aristotle_diagram.jpg?raw=true)
 
 # Introduction
 
