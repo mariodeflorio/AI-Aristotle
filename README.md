@@ -10,7 +10,7 @@
 
 
 
-## Introduction
+# Introduction
 
 The source code for the manuscript: AI-Aristotle: A Physics-Informed framework for Systems Biology Gray-Box Identification
 
@@ -20,9 +20,9 @@ Discovering mathematical equations that govern physical and biological systems f
 
 
 
-## General Installation
+# General Installation
 
-# PINNs General Installation Instructions
+## PINNs General Installation Instructions
 
 To set up your environment for this project, ensure you have Python installed on your system. If not, download it from [python.org](https://www.python.org/). This project is compatible with Python 3.x versions.
 
@@ -56,24 +56,24 @@ pip install scipy
 
 # Check for any missing dependencies
 pip check
+```
 
 
 
-
-## Getting Started
+# Getting Started
 
 Installing the libraries:
 
 - CSV
 
 
-## Contribution
+# Contribution
   
   
-## To Do
+# To Do
 
   
-## Contact
+# Contact
 Email addresses: 
 - Nazanin@Brown.edu 
 - mario_de_florio@brown.edu
