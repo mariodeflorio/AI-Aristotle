@@ -4,7 +4,7 @@
 | [1. Introduction (AI-Aristotle)](#Introduction) |
 | [2. General Installation](#General-Installation) |
 | [3. Getting Started](#Getting-Started) |
-| [4. Contribution](#contribution) |
+| [4. Contributions](#contributions) |
 | [5. Contact](#Contact) |
 
 
@@ -120,7 +120,7 @@ To perform missing term discovery with X-TFC for the drugs absorption compartmen
 The script prints the computational time of the total execution, the values of the Mean Absolute Error, Mean Squared Error, and Relative Error of the discovered term compared to the exact term. Two figures will be produced, in which the solutions of the differential equations and the missing term are plotted vs. exact solutions for both training and test points. The vectors of the time domain, the three solutions of the differential equations, and the discovered term are saved in the file *t_B_G_U_f.csv*, which will be used in the Symbolic Regression algorithm for the mathematical distillation.
 
 
-# Contribution
+# Contributions
 
 This project encompasses various components, each spearheaded by different contributors. Should you encounter any issues or have questions about a specific part of the project, please reach out to the respective contributor for assistance:
 
