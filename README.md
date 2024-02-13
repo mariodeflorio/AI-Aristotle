@@ -1,7 +1,7 @@
 
 | Table of Contents |
 | ----------------- |
-| [1. Introduction(AI-Aristotle)](#Introduction) |
+| [1. Introduction (AI-Aristotle)](#Introduction) |
 | [2. General Installation](#General-Installation) |
 | [3. Getting Started](#Getting-Started) |
 | [4. Contribution](#contribution) |
