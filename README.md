@@ -94,7 +94,7 @@ To perform parameter discovery with X-TFC for the drugs absorption compartmental
 - *N*: number of collocation points per each sub-domain
 - *m*: number of neurons
 - *t_step*: length of sub-domains
-- *final_subdomain*: (n_t - 1) to consider all the time domain or 1 to consider only the first sub-domain.
+- *final_subdomain*: (n_t - 1) to consider the whole time domain or 1 to consider only the first sub-domain.
 - *LB*: Lower boundary for weight and bias samplings
 - *UB*: Upper boundary for weight and bias samplings
 - *IterMax*: maximum number of iterations of the least-squares algorithm 
