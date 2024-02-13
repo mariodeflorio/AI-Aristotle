@@ -22,7 +22,41 @@ Discovering mathematical equations that govern physical and biological systems f
 
 ## General Installation
 
-You need to install ...
+# PINNs General Installation Instructions
+
+To set up your environment for this project, ensure you have Python installed on your system. If not, download it from [python.org](https://www.python.org/). This project is compatible with Python 3.x versions.
+
+### Step 1: Install Python
+
+Make sure Python 3.x is installed on your system. You can download Python from the official [Python website](https://www.python.org/).
+
+### Step 2: Install Required Libraries
+
+Open your terminal or command prompt and execute the following commands to install the necessary libraries:
+
+```bash
+# Upgrade pip and install JAX (For specific CPU or GPU support, refer to JAX's installation guide)
+pip install --upgrade pip
+pip install --upgrade jax jaxlib
+
+# Install NumPy
+pip install numpy
+
+# Install Matplotlib for plotting
+pip install matplotlib
+
+# Install Optax for optimization
+pip install optax
+
+# Install Pandas for data manipulation
+pip install pandas
+
+# Install SciPy for scientific computations
+pip install scipy
+
+# Check for any missing dependencies
+pip check
+
 
 
 
