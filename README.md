@@ -120,6 +120,20 @@ To perform missing term discovery with X-TFC for the drugs absorption compartmen
 The script prints the computational time of the total execution, the values of the Mean Absolute Error, Mean Squared Error, and Relative Error of the discovered term compared to the exact term. Two figures will be produced, in which the solutions of the differential equations and the missing term are plotted vs. exact solutions for both training and test points. The vectors of the time domain, the three solutions of the differential equations, and the discovered term are saved in the file *t_B_G_U_f.csv*, which will be used in the Symbolic Regression algorithm for the mathematical distillation.
 
 
+# Contribution
+
+This project encompasses various components, each spearheaded by different contributors. Should you encounter any issues or have questions about a specific part of the project, please reach out to the respective contributor for assistance:
+
+- **Physics-Informed Neural Networks (PINNs)**: For inquiries or issues related to the PINNs code, please contact Nazanin. She is responsible for this segment and can provide the necessary support.
+
+- **X-tfc**: If your questions or issues pertain to the X-TFC component, Mario is your point of contact. He has developed this part and will be able to assist you with any related queries.
+
+- **Symbolic Regression**: For matters concerning the Symbolic Regression part of the project, please get in touch with Khemraj. He is the main contributor for this section and will address any problems you might face.
+
+Each contributor is responsible for their respective sections and is best equipped to provide support and answers for their part of the code.
+ 
+  
+
 
 
   
