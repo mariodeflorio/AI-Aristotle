@@ -139,6 +139,6 @@ Each contributor is responsible for their respective sections and is best equipp
   
 # Contact
 Email addresses: 
-- Nazanin@Brown.edu 
+- Nazanin@brown.edu 
 - mario_de_florio@brown.edu
 - khemraj_shukla@brown.edu
